@@ -1,0 +1,5 @@
+const showWin = (winner) => {
+  msg[0].innerText = `Congratulations! Winner is ${winner}`;
+  msgCont1[0].classList.remove("hide");
+  disableBoxes();
+};
